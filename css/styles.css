@@ -791,7 +791,7 @@ header .categories .item > a.sub_link:after
     width: 28px;
     height: 14px;
     margin: 0 auto;
-    margin-top: 56px;
+    margin-top: 32px;
 
     content: '';
     transition: .2s linear .015s;
@@ -815,8 +815,6 @@ header .categories .item:hover > a.sub_link:after
 {
     visibility: visible;
 
-    margin-top: 32px;
-
     transition: .2s linear .05s;
 
     opacity: 1;
@@ -827,7 +825,7 @@ header .categories .sub
 {
     position: absolute;
     z-index: 9;
-    top: calc(100% + 20px);
+    top: 100%;
     left: 50%;
 
     visibility: hidden;
@@ -888,8 +886,6 @@ header .categories .sub .bg
 
 header .categories .item:hover > a.touch_link + .sub
 {
-    top: calc(100% + 20px);
-
     visibility: hidden;
 
     pointer-events: none;
@@ -900,8 +896,6 @@ header .categories .item:hover > a.touch_link + .sub
 header .categories .item:hover .sub,
 header .categories .item > a.touch_link + .sub.show
 {
-    top: 100%;
-
     visibility: visible;
 
     pointer-events: auto;
