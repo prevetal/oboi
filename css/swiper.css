@@ -1,0 +1,113 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    color: #000;
+
+    position: relative;
+    top: auto;
+    bottom: 0;
+
+    display: flex;
+
+    width: 49px;
+    height: 48px;
+    margin: 0;
+
+    transition: .2s linear;
+    transform: none;
+
+    border: 1px solid #000;
+    background: #fff;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-button-prev
+{
+    left: 0;
+}
+
+.swiper-button-next
+{
+    right: 0;
+
+    margin-left: 12px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon
+{
+    display: block;
+
+    width: 14px;
+    height: 24px;
+}
+
+.swiper-button-next .icon
+{
+    transform: rotate(180deg);
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    color: #fff;
+
+    background: #000;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    font-size: 14px;
+
+    position: relative;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 100%;
+    margin-bottom: 19px;
+
+    pointer-events: none;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-pagination-fraction > * + *
+{
+    margin-left: 5px;
+}
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
